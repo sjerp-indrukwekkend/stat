@@ -1,0 +1,157 @@
+.tekst-wit {color: #fff;}
+.tekst-wittig {color: #f5f5f5;}
+.tekst-lichtgrijs {color: #cac8c8;}
+.tekst-grijs {color: #666;}
+.tekst-donkergrijs {color: #414141;}
+.tekst-zwart {color: #252525;}
+.tekst-hoofdkleur {color: #317ef2;}
+.tekst-zijkleur {color: #e53c62;}
+.tekst-accentkleur {color: #2cbbde;}
+.tekst-hoofdkleur-donker {color: #e22650;}
+.tekst-zijkleur-donker {color: #f7de99;}
+.tekst-accentkleur-donker {color: #a2d5e2;}
+.achtergrond-wit {background-color: #fff;}
+.achtergrond-wittig {background-color: #f5f5f5;}
+.achtergrond-lichtgrijs {background-color: #cac8c8;}
+.achtergrond-grijs {background-color: #666;}
+.achtergrond-donkergrijs {background-color: #414141;}
+.achtergrond-zwart {background-color: #252525;}
+.achtergrond-hoofdkleur {background-color: #317ef2;}
+.achtergrond-zijkleur {background-color: #e53c62;}
+.achtergrond-accentkleur {background-color: #2cbbde;}
+.achtergrond-hoofdkleur-donker {background-color: #e22650;}
+.achtergrond-zijkleur-donker {background-color: #f7de99;}
+.achtergrond-accentkleur-donker {background-color: #a2d5e2;}
+#stek-voet {background-color: #111;border-top: 5px solid #f5f5f5;position: relative;padding-top: 50px;padding-bottom: 50px;}
+@media (max-width: 900px) {#stek-voet {font-size: 1.25rem;}}
+#stek-voet::after {width: 100%;left: 0;top: -1px;position: absolute;display: block;border-bottom: 1px solid rgba(33,33,33,.3);content: "";}
+@media (max-width: 900px) {#stek-voet {padding-top: 25px;padding-bottom: 25px;}
+	#stek-voet .verpakking {-ms-flex-direction: row;flex-direction: row;-ms-flex-wrap: wrap;flex-wrap: wrap;text-align: left;}
+	#stek-voet .verpakking .footer-section {-ms-flex-preferred-size: calc(50% - 10px);flex-basis: calc(50% - 10px);margin-bottom: 25px;margin-left: 0;margin-right: 0;}}
+#stek-voet section {-ms-flex-preferred-size: 25%;flex-basis: 25%;}
+#stek-voet section:nth-child(3) {color: #e53c62;}
+#stek-voet a {background: transparent;border-bottom: none;}
+#stek-voet p {line-height: 1.5;}
+body {font-family: "Noto Sans",sans-serif;}
+h1, h2, h3, h4, h5, h6, .menu-kop-container a {font-family: "Roboto Slab",serif;}
+p, span {font-weight: 400;line-height: 1.4;}
+a, a:visited {color: #e53c62;}
+p a:not(.knop), span a:not(.knop), .tekstveld a:not(.knop) {color: inherit;background: linear-gradient(to bottom,transparent 0,transparent 80%,#2cbbde 80%,#2cbbde 100%);border-bottom: 2px #2cbbde solid;}
+p a:not(.knop):hover, span a:not(.knop):hover, .tekstveld a:not(.knop):hover {text-decoration: none;}
+#primary {min-height: 60vh;}
+article footer, section footer {text-align: right;}
+.uitgelichte-afbeelding-buiten h1 {background: linear-gradient(110deg,#313999 0%,#313999 15%,#72255b 100%);}
+.knop, input.wpcf7-submit {background-color: #f5f5f5;color: #317ef2;}
+.knop:hover, .knop:visited, .knop:active, input.wpcf7-submit:hover, input.wpcf7-submit:visited, input.wpcf7-submit:active {color: #317ef2;}
+.knop.in-wit, input.wpcf7-submit.in-wit {background-color: #317ef2;color: #fff !important;}
+body {margin-top: 100px;}
+body.home, body.single, body.page-template-default {margin-top: 70px;}
+#stek-kop {height: 70px;background-color: #f5f5f5;position: fixed;left: 0;top: 0;box-shadow: 1px 1px 3px rgba(33,33,33,.3);color: #317ef2;}
+#stek-kop .stek-kop-links {-ms-flex-preferred-size: 290px;flex-basis: 290px;}
+@media (max-width: 600px) {#stek-kop .stek-kop-links {-ms-flex-preferred-size: 73px;flex-basis: 73px;}}
+@media (max-width: 480px) {#stek-kop {height: 70px;}}
+#site-logo {padding: 12px 0;display: block;position: relative;}
+#site-logo::before {z-index: 1;height: 70px;width: 1000px;display: block;content: "";background-color: #317ef2;position: absolute;left: auto;top: 0;right: 177px;}
+@media (max-width: 600px) {#site-logo::before {right: -18px;height: 70px;}}
+#site-logo span {vertical-align: center;display: inline-block;weight: 900;font-family: "Roboto Slab",serif;color: white;position: absolute;left: 0;top: 0;z-index: 2;}
+#site-logo span#logo-sjerp {font-size: 40px;line-height: 40px;color: #f5f5f5;top: 10px;}
+@media (max-width: 600px) {#site-logo span#logo-sjerp {font-size: 30px;line-height: 70px;top: 0px;}}
+#site-logo span#logo-bouwt-sites {font-size: 20px;line-height: 20px;top: 15px;left: 130px;color: #317ef2;}
+@media (max-width: 600px) {#site-logo span#logo-bouwt-sites {display: none;}}
+.menu-kop-container a {color: #317ef2;font-weight: 900;margin-left: 20px;line-height: 70px;}
+@media (max-width: 480px) {.menu-kop-container a {line-height: 70px;margin-left: 14px;}}
+@media (max-width: 600px) {.menu-kop-container .desktop {display: none;}}
+#project #tax-blok {margin-bottom: 40px;}
+#project #tax-blok h2, #project #tax-blok h3 {margin-top: 0;margin-bottom: .5em;}
+#project #tax-blok ul, #project #tax-blok li {padding: 0;margin: 0;list-style-type: none;}
+#project #tax-blok ul {margin-bottom: -20px;-moz-columns: auto;columns: auto;}
+#project #tax-blok li {display: inline-block;margin-right: 20px;margin-bottom: 0;}
+#project #tax-blok li:last-child {margin-right: 0;}
+#project #tax-blok section ~ section {margin-top: 20px;}
+#project #tax-blok section:last-child {padding-bottom: 20px;}
+@media (max-width: 600px) {#project #tax-blok ul {margin-bottom: -10px;}
+	#project #tax-blok li {margin-right: 10px;margin-bottom: 0;}}
+#project #tax-blok a {display: block;padding: 0;font-weight: 400;text-transform: capitalize;color: #252525;text-align: center;margin-right: 10px;font-size: .8em;}
+@media (min-width: 900px) and (max-width: 1100px) {#project {font-size: .8rem;}}
+#port-arts {display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;-ms-flex-direction: row;flex-direction: row;}
+#port-arts article {-ms-flex-preferred-size: calc(33.33% - 1em);flex-basis: calc(33.33% - 1em);-ms-flex-positive: 1;flex-grow: 1;margin: .5em;margin: .5em;position: relative;max-width: none;max-width: calc(50% - 1em);overflow: hidden;box-shadow: 1px 1px 3px rgba(0,0,0,.4);}
+#port-arts article:hover {cursor: pointer;}
+#port-arts article:hover .art-rechts p {opacity: 1;transition: .8s ease-out 1s;}
+#port-arts article:hover .art-rechts h3 {opacity: 1;transition: .2s linear .25s;font-size: 1.6em;padding: -20px;margin: -20px;background-color: #317ef2;}
+#port-arts article:hover .kleurlaag {top: -18%;left: -8%;opacity: 1;transition: .6s ease-out .3s;}
+@media (max-width: 900px) {#port-arts article:hover .kleurlaag {top: -5%;}}
+@media (min-width: 1400px) {#port-arts article {-ms-flex-preferred-size: calc(25% - 1em);flex-basis: calc(25% - 1em);}
+	#port-arts article .art-links {height: calc(25vw - ( 4.5px + 1em ));}}
+@media (max-width: 800px) {#port-arts article {-ms-flex-preferred-size: calc(50% - 1em);flex-basis: calc(50% - 1em);}
+	#port-arts article .art-links {height: calc(50vw - 1em);}}
+@media (max-width: 600px) {#port-arts article {-ms-flex-preferred-size: calc(100% - 1em);flex-basis: calc(100% - 1em);font-size: 1.2em;}
+	#port-arts article .art-links {height: calc(100vw - 1em);}}
+#port-arts .art-links {height: calc(33.33vw - ( 6px + 1em ));width: 100%;}
+#port-arts .art-links a {display: block;height: 100%;}
+#port-arts .art-links a img {width: 100%;height: 100%;object-fit: cover;}
+#port-arts .kleurlaag {width: 120%;height: 120%;position: absolute;top: -100%;left: -20%;transform: rotate(-8deg);background: linear-gradient(to bottom,#317ef2 0%,#317ef2 46%,#0e63e2 46%,#0e63e2 48%,rgba(49,126,242,0) 48%,rgba(49,126,242,0) 100%);background-size: cover;transition: .6s ease-in-out .6s;}
+#port-arts .art-rechts {position: absolute;height: 100%;width: 100%;top: 0;left: 0;padding: 1em;}
+#port-arts .art-rechts a {color: white;margin: -1em;display: block;padding: 1em;height: calc(100% + 2em);transition: 2s ease-in-out 3s;}
+#port-arts .art-rechts a:hover {text-decoration: none;}
+#port-arts .art-rechts a h3 {margin-top: 0;color: #f5f5f5;text-shadow: 1px 1px 1px rgba(8,57,130,.5);font-size: 2.4em;text-transform: none;margin-bottom: .4em;font-weight: 900;display: inline-block;min-width: 100%;box-sizing: border-box;padding: 20px;background-color: #317ef2;}
+#port-arts .art-rechts a p {opacity: 0;font-weight: 400;text-shadow: none;}
+#port-arts .art-rechts a h3, #port-arts .art-rechts a p {color: #f5f5f5;transition: .5s ease .2s;}
+.single .tekstveld {padding-top: 20px;padding-bottom: 20px;}
+.single .tekstveld p:first-child {margin-top: 0;}
+.single .tekstveld p:last-child {margin-bottom: 0;}
+.single .uitgelichte-afbeelding-buiten {height: calc(75vh);}
+@media (min-width: 1200px) {.single .uitgelichte-afbeelding-buiten h1 {left: 20px;}}
+#single-knop {right: 20px;}
+#single-hoofd.met-gallerij {margin-top: 60px;}
+@media (max-width: 900px) {#single-hoofd.met-gallerij {margin-top: 20px;}}
+#single-hoofd h1, #single-hoofd h2 {margin-bottom: 0;}
+@media (max-width: 400px) {#single-hoofd {margin-top: 0;}}
+#single-hoofd.flex {display: -ms-flexbox;display: flex;-ms-flex-direction: row;flex-direction: row;-ms-flex-pack: justify;justify-content: space-between;}
+#single-hoofd.flex .links {-ms-flex-preferred-size: 60%;flex-basis: 60%;}
+#single-hoofd.flex .rechts {-ms-flex-preferred-size: 30%;flex-basis: 30%;display: -ms-flexbox;display: flex;-ms-flex-direction: column;flex-direction: column;}
+@media (max-width: 900px) {#single-hoofd.flex .rechts {-ms-flex-preferred-size: 35%;flex-basis: 35%;}}
+@media (max-width: 400px) {#single-hoofd.flex {-ms-flex-wrap: wrap;flex-wrap: wrap;}
+	#single-hoofd.flex .links, #single-hoofd.flex .rechts {-ms-flex-preferred-size: 100%;flex-basis: 100%;}
+	#single-hoofd.flex .links {margin-top: 20px;-ms-flex-order: 2;order: 2;}}
+.single-article-sticky {position: static;top: 0;font-size: 1.2em;margin: 40px 0;}
+.single-article-sticky h2, .single-article-sticky h1 {margin-top: 0;}
+@media (max-width: 400px) {.single-article-sticky {position: static;}
+	.single-article-sticky h2, .single-article-sticky h1 {margin-top: .5em;}}
+.single-meta {margin: 30px 0;}
+@media (max-width: 900px) {.single-meta {margin: 15px 0;}}
+.single-meta span {display: block;}
+.single-meta strong {color: #2cbbde;font-size: 1.2em;margin-right: .05em;}
+.single-art-hoofd>strong:first-child {color: #2cbbde;font-size: 1.2em;}
+.single-art-hoofd>strong:first-child+p {margin-top: 0;}
+.single-art-hoofd+footer {margin-top: 30px;}
+.single .vid-doos {height: auto;}
+.single article>.vid-doos:first-child {height: 75vh;}
+.single .gallerij>* {box-shadow: 1px 1px 3px rgba(0,0,0,.4);margin-bottom: 20px;}
+footer .conversie {font-size: .8em;text-align: left;padding: 1em;background-color: #317ef2;margin-bottom: 2em;color: white;}
+footer .conversie h3 {margin-top: 0;}
+footer .conversie.gekleurde-achtergrond a {border-bottom: 0;background: transparent;}
+footer .conversie.gekleurde-achtergrond a::after {display: none;}
+#sjerps-lelijke-porem {height: 100vh;background-color: white;background-size: contain;background-position: center center;background-repeat: no-repeat;display: -ms-flexbox;display: flex;-ms-flex-direction: column;flex-direction: column;-ms-flex-pack: distribute;justify-content: space-around;margin-top: -70px;}
+@media (max-width: 800px) {#sjerps-lelijke-porem {margin-top: -20px;height: 70vw;}}
+#vp-knoppendoos {position: absolute;top: 50%;left: 65%;text-align: left;}
+@media (max-width: 1400px) {#vp-knoppendoos {left: 55%;}}
+@media (max-width: 900px) {#vp-knoppendoos {right: 7%;left: auto;}}
+@media (max-width: 600px) {#vp-knoppendoos {display: none;}}
+#vp-knoppendoos .knop {background-color: #fff;box-shadow: none;position: static;color: #317ef2 !important;font-size: 1.6rem;text-transform: uppercase;border: none;border: 2px solid white;font-weight: 700;display: block;margin-bottom: .5em;}
+#vp-knoppendoos .knop+.knop {color: white !important;background-color: transparent;}
+#sjerp-bouwt-sites h1 {font-size: 2.25em;margin-bottom: .6em;margin-top: 0;}
+.vid-doos {height: 100%;}
+.prijzenveld-buiten {background: linear-gradient(110deg,#313999 0%,#313999 15%,#72255b 100%);}
+.prijzenveld {padding: 0 20px;margin: 0 auto;}
+.prijzenveld>li {list-style-type: none;margin: 0;}
+.prijzenveld ul {padding: 0;margin: 0;list-style-type: none;display: -ms-flexbox;display: flex;-ms-flex-direction: row;flex-direction: row;border-bottom: 5px solid #f5f5f5;}
+.prijzenveld ul li {color: #f5f5f5;-ms-flex-positive: 0;flex-grow: 0;-ms-flex-negative: 0;flex-shrink: 0;box-sizing: border-box;padding: 15px;}
+.prijzenveld ul p {margin: 0;font-size: .8em;}
+.prijzenveld ul h3 {margin: 0;}
+.prijzenveld ul li, .prijzenveld ul p {line-height: 1;}
+.prijzenveld ul a {background: linear-gradient(to bottom,transparent 0,transparent 80%,#f5f5f5 80%,#f5f5f5 100%);border-bottom: none;}
+.prijzenveld ul a:hover {text-decoration: none;}
+.prijzenveld ul .prijs {-ms-flex-preferred-size: 15%;flex-basis: 15%;}
+.prijzenveld ul .naam {-ms-flex-preferred-size: 30%;flex-basis: 30%;font-weight: bold;}
+.prijzenveld ul .tekst {-ms-flex-preferred-size: 55%;flex-basis: 55%;}
+.prijzenveld li:last-child ul {border-bottom: none;}
